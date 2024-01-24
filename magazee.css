@@ -1,0 +1,146 @@
+body{
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    color: #666666;
+    background-color: #f4f4f4;
+    letter-spacing: 0.5px;
+}
+.container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width:80vw;
+}
+.section{
+    min-height:400px;
+    background-color: white;
+}
+.bg-color{
+    background-color: #993333;
+}
+.flex-center{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    font-size: 63px;
+    color: white;
+    letter-spacing: 1px;
+}
+p,q{
+    line-height: 1.8;
+}
+.quote{
+    font-size: 1.5rem;
+    font-style:italic;
+    color:#666666
+}
+.content h2{
+    color: #993333;
+}
+.btn{
+    border-radius: 0;
+    text-transform: uppercase;
+    padding: 12px 47px;
+    font-size: 1.15rem;
+}
+.btn-primary{
+    background-color: #993333;
+    color:white;
+    border:#993333
+}
+.small{
+    font-weight: 300;
+    font-size: 0.9rem;
+    color: white;
+    letter-spacing: normal;
+}
+.max-width{
+    max-width: 400px;
+    flex-direction: column;
+}
+.btn-primary:hover{
+    color:#993333;
+    border:2px solid #993333;
+    background-color: white;
+}
+.form-head{
+    padding:40px 40px;
+    background-color: #993333;
+    color: white;
+}
+.form-head h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    padding: 68px;
+    background: white;
+    margin-top: -56px;
+    position: relative;
+    z-index: 900;
+    margin: 0 auto;
+    max-width: 880px;
+}
+.form-group{
+    margin-bottom: 1rem;
+}
+.form-control{
+    color: #666;
+    font-size: 1.2rem;
+    padding: 12px 20px;
+    border-radius: 0;
+}
+select{
+    width: 100%;
+    padding: 15px;
+    color: #666;
+}
+input[type="radio"]{
+    margin-right: 10px;
+}
+textarea{
+    height:205px;
+}
+.btn-secondary{
+    color: white;
+    background-color: #009999;
+    border: #009999;
+}
+.btn-secondary:hover{
+    background-color: #009999;
+}
+.price-table{
+    border: 1px solid #009999;
+    width: 100%;
+    max-width: 340px;
+}
+.bg-price{
+    background-color: #009999;
+    color: white;
+    font-weight: 300;
+    padding: 20px;
+}
+.price-title{
+    font-size: 1.6rem;
+}
+.price-body{
+    padding-bottom: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 2.4;
+    padding: 35px 50px;
+}
+.form-content{
+    display: flex;
+    justify-content: center;
+}
